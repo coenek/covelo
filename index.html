@@ -7,20 +7,23 @@
     <style>
         /* Add your CSS styles here */
         body {
-            font-family: Monaco, regularf;
+            font-family: Monaco, regular;
             margin: 0px;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
         }
     
         section {
-            margin: 200px; /* Adjust the top and bottom margin as needed */
-            /*border: 1px solid #ddd;*/
-            width: 100%; /* Adjust the width of the square */
-            height: 200px; /* Adjust the height of the square */
-            background-color: rgb(29, 177, 0); /* Set the fill color */
+            margin: 600px 0; /* Adjust the top and bottom margin as needed */
+            padding: 20px;
+            
+            
+            
+            
         }
-        
-      
+       .no-underline {
+           text-decoration: none;
+        }
+
         .large-text {
             font-size: 120px;
             margin: 1px;
@@ -28,33 +31,47 @@
         }
 
         .small-text {
-            font-size: 20px;
+            font-size: 30px;
+            font-family: Monaco, regular;
+            
             margin: 0;
             color: rgb(0, 0, 0);
+        }
+        .line-above {
+            width: 100%;
+            height: 0; /* Set height to 0 to create a line */
+            border-top: 3px solid #222; /* Set the color of the line */
+            margin-top: 1px; /* Adjust the margin as needed */
         }
     </style>
 </head>
 <body>
     <center>
     <p class="large-text"><span style="color: rgb(29, 177, 0);">Co</span><span style="color: black;">velo</span></p>
-    <p class="small-text">herstel en verkoop</p>
+    <!-- <p class="small-text">herstel en verkoop</p><!-- background-color: rgb(29, 177, 0); /* Set the fill color */ --> 
     
     <nav>
     <br>
     <br>
-    <a href="#section1">Openingsuren<a> 
+    <a href="#section1" class="no-underline"><p class="small-text">Wie</p><a>
+
     <br>
-    <a href="#section2">Contact</a>
-            
+    <a href="#section2" class="no-underline"><p class="small-text">Wat</p><a>
+    <br>
+    <a href="#section3">Waar<a>
+    <br>
+    <a href="#section4">Hoe</a>
             <!-- Add more links as needed -->
     </nav>
 
     <section id="section1">
+        <div class="line-above"></div>
         <h2>Openingsuren</h2>
         <p>This is the content of section 1.</p>
     </section>
     <br>
     <section id="section2">
+        <div class="line-above"></div>
         <h2>Contact</h2>
         <p>This is the content of section 2.</p>
     </section>
