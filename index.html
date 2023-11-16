@@ -25,11 +25,17 @@
         }
 
         .large-text {
+            
             font-size: 150px;
             margin: 1px;
             padding: 0;
         }
-
+        @media (max-width: 600px) {
+            .large-text {
+                font-size: 14px; /* or your preferred smaller size for smaller screens */
+            }
+        }
+        
         .small-text {
             font-size: 30px;
             font-family: Monaco, bold;
