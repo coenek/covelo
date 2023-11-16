@@ -7,7 +7,7 @@
     <style>
         /* Add your CSS styles here */
         body {
-            font-family: Monaco, regularf;
+            font-family: Monaco, regular;
             margin: 0px;
             color: rgb(0, 0, 0);
         }
@@ -20,8 +20,10 @@
             
             
         }
-        
-      
+       .no-underline {
+           text-decoration: none;
+        }
+
         .large-text {
             font-size: 120px;
             margin: 1px;
@@ -29,7 +31,9 @@
         }
 
         .small-text {
-            font-size: 20px;
+            font-size: 30px;
+            font-family: Monaco, regular;
+            
             margin: 0;
             color: rgb(0, 0, 0);
         }
@@ -44,15 +48,19 @@
 <body>
     <center>
     <p class="large-text"><span style="color: rgb(29, 177, 0);">Co</span><span style="color: black;">velo</span></p>
-    <!-- <p class="small-text">herstel en verkoop</p><!-- background-color: rgb(29, 177, 0); /* Set the fill color */ --> -->
+    <!-- <p class="small-text">herstel en verkoop</p><!-- background-color: rgb(29, 177, 0); /* Set the fill color */ --> 
     
     <nav>
     <br>
     <br>
-    <a href="#section1">Openingsuren<a> 
+    <a href="#section1" class="no-underline"><p class="small-text">Wie</p><a>
+
     <br>
-    <a href="#section2">Contact</a>
-            
+    <a href="#section2" class="no-underline"><p class="small-text">Wat</p><a>
+    <br>
+    <a href="#section3">Waar<a>
+    <br>
+    <a href="#section4">Hoe</a>
             <!-- Add more links as needed -->
     </nav>
 
