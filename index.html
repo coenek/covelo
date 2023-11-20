@@ -76,11 +76,26 @@
             margin-top: 1px; /* Adjust the margin as needed */
         }
         .arrow-up {
-      width: 0;
-      height: 0;
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
-      border-bottom: 20px solid #000; /* Change the color as needed */
+          width: 0;
+          height: 0;
+          border-left: 20px solid transparent;
+          border-right: 20px solid transparent;
+          border-bottom: 20px solid #000; /* Change the color as needed */
+       }
+        table {
+          width: 100%;
+          border-collapse: collapse;
+       }
+
+        th, td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: center;
+       }
+
+    /* Adjust the width of the second column */
+        td:nth-child(2) {
+          width: 33%; /* You can set it to a specific width or use a percentage */
        }
     </style>
 </head>
@@ -199,10 +214,7 @@
         <br>
         <p class="text">e-mail</p> 
         <a href="mailto:kenneth@covelo.be" style="text-decoration: underline; color: black;"><p class="text">kenneth@covelo.be</p></a>
-        <br>
-        
-
-        
+        <br>        
         <p class="text">BTW: BE</p>
         <br>
         <br>
